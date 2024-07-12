@@ -48,19 +48,51 @@
             padding: 5px 10px;
             border-radius: 5px;
         }
+        nav {
+            background-color: #2980b9;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
         @media (max-width: 600px) {
             .container {
                 padding: 10px;
+            }
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
             }
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Tevfik Fikret Şeker</h1>
+        <p>SCADA Mühendisi</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Ana Sayfa</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
     <div class="container">
-        <header>
-            <h1>Tevfik Fikret Şeker</h1>
-            <p>SCADA Mühendisi</p>
-        </header>
         <section class="section">
             <h2>İletişim Bilgileri</h2>
             <p>📧 E-posta: tevfik@seker.me</p>
@@ -95,7 +127,6 @@
             <h2>Diller</h2>
             <ul>
                 <li>Türkçe (Ana dil)</li>
-                <li>Lazca (Ana dil)</li>
                 <li>İngilizce (İleri seviye)</li>
             </ul>
         </section>
