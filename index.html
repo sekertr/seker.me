@@ -8,6 +8,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    .footer_links
+    {
+        color:green;
+    }
     <style>
         body {
             font-family: 'Courier New', monospace;
@@ -259,7 +263,7 @@
                     </div>
 
                     <div className="footer">
-                        <p>İletişim: <a href="mailto:sekertevfik@gmail.com"> [E-posta] </a> | [LinkedIn]</p>
+                        <div class="footer_links"><p>İletişim: <a href="mailto:sekertevfik@gmail.com">[E-posta]</a> | <a href="https://www.linkedin.com/in/tevfikseker/">[LinkedIn]</a></p></div>
                         <p>Son Güncelleme: {new Date().toLocaleString()}</p>
                     </div>
                 </div>
