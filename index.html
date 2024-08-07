@@ -16,6 +16,7 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            user-select: none;
         }
         .container {
             max-width: 1200px;
@@ -274,6 +275,27 @@
         };
 
         ReactDOM.render(<ScadaCV />, document.getElementById('root'));
+    </script>
+    <script type="text/javascript">
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
+    <script type="text/javascript">
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        (function() {
+            const element = new Image();
+            Object.defineProperty(element, 'id', {
+                get: function() {
+                    alert('Site kodlarını fazla karıştırma :) Telif yiyebilirsin. //Tevfik.');
+                    window.location.reload();
+                }
+            });
+            console.log(element);
+        })();
     </script>
 </body>
 </html>
