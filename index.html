@@ -281,21 +281,5 @@
             e.preventDefault();
         });
     </script>
-    <script type="text/javascript">
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
-
-        (function() {
-            const element = new Image();
-            Object.defineProperty(element, 'id', {
-                get: function() {
-                    alert('Site kodlarını fazla karıştırma :) Telif yiyebilirsin. //Tevfik.');
-                    window.location.reload();
-                }
-            });
-            console.log(element);
-        })();
-    </script>
 </body>
 </html>
