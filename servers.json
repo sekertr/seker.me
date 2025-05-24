@@ -1,0 +1,13 @@
+{
+"servers": [
+{
+"name": "SideStore",
+"address": "https://ani.sidestore.io"
+},
+{
+"name": "SideStore (.app)",
+"address": "https://ani.sidestore.app"
+}
+],
+"cache": "https://servers.sidestore.io/servers.json.hash"
+}
